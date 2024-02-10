@@ -12,7 +12,7 @@ pandas
 Pillow>=9.5.0
 pyyaml
 requests
-safetensors==0.3.1
+safetensors==0.4.2
 sentencepiece
 tqdm
 scipy
