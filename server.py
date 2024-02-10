@@ -852,6 +852,7 @@ def create_interface():
 
         # chat mode event handlers
         if shared.is_chat():
+            print("Entered shared is chat")
             shared.input_params = gradio('Chat input', 'start_with', 'interface_state')
             clear_arr = gradio('Clear history-confirm', 'Clear history', 'Clear history-cancel')
             shared.reload_inputs = gradio('history', 'name1', 'name2', 'mode', 'chat_style')
